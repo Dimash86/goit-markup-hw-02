@@ -1,7 +1,11 @@
-.header-nav a{
-    color: #212121;
+a {
+    text-decoration: none;
 }
 
-.header-mail-tel a{
-    color: #757575;
+.list {
+    list-style: none;
+}
+
+img {
+    display: block;
 }
