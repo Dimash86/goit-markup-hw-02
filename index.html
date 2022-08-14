@@ -18,7 +18,7 @@
     <header class="page-header">
       <nav class="page-nav">
         <a class="page-logo link" href="/index.html"
-          >Web<span class="colortext">Studio</span></a
+          >Web<span class="header-colortext">Studio</span></a
         >
         <ul class="menu list">
           <li class="menu-item">
@@ -46,42 +46,42 @@
       </ul>
     </header>
 
-    <main>
-      <section>
-        <h1>
+    <main class="page-main">
+      <section class="main-hero-section">
+        <h1 class="hero-section-title">
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
-        <button class="model-open-button" type="button">
+        <button class="hero-button button" type="button">
           Замовити послугу
         </button>
       </section>
 
-      <section>
+      <section class="main-section-features">
         <ul class="list">
           <li>
-            <h3>Увага до деталей</h3>
-            <p>
+            <h3 class="features-title">Увага до деталей</h3>
+            <p class="features-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>Пунктуальність</h3>
-            <p>
+            <h3 class="features-title">Пунктуальність</h3>
+            <p class="features-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>Планування</h3>
-            <p>
+            <h3 class="features-title">Планування</h3>
+            <p class="features-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>Сучасні технології</h3>
-            <p>
+            <h3 class="features-title">Сучасні технології</h3>
+            <p class="features-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -89,13 +89,14 @@
         </ul>
       </section>
 
-      <section>
-        <h2 id="studio">Чим ми займаємось</h2>
+      <section class="main-section-benefits">
+        <h2 id="studio" class="section-title">Чим ми займаємось</h2>
         <ul class="list">
           <li>
             <img
               src="./images/studio-1.jpg"
               alt="Розробка програмного коду"
+              class="img"
               width="370"
             />
           </li>
@@ -103,6 +104,7 @@
             <img
               src="./images/studio-2.jpg"
               alt="Створення мобільних додатків"
+              class="img"
               width="370"
             />
           </li>
@@ -110,59 +112,68 @@
             <img
               src="./images/studio-3.jpg"
               alt="Розробка дизайн макетів"
+              class="img"
               width="370"
             />
           </li>
         </ul>
       </section>
 
-      <section>
-        <h2>Наша команда</h2>
+      <section class="main-section-team">
+        <h2 class="section-title">Наша команда</h2>
         <ul class="list">
           <li>
             <img
               src="./images/employee-1.jpg"
               alt="Ігор Дем'яненко"
+              class="main-section-team-image"
               width="270"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <h3 class="main-section-team-name">Ігор Дем'яненко</h3>
+            <p class="main-section-team-text">Product Designer</p>
           </li>
           <li>
-            <img src="./images/employee-2.jpg" alt="Ольга Рєпіна" width="270" />
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <img
+              src="./images/employee-2.jpg"
+              alt="Ольга Рєпіна"
+              class="main-section-team-image"
+              width="270"
+            />
+            <h3 class="main-section-team-name">Ольга Рєпіна</h3>
+            <p class="main-section-team-text">Frontend Developer</p>
           </li>
           <li>
             <img
               src="./images/employee-3.jpg"
               alt="Микола Тарасов"
+              class="main-section-team-image"
               width="270"
             />
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="main-section-team-name">Микола Тарасов</h3>
+            <p class="main-section-team-text">Marketing</p>
           </li>
           <li>
             <img
               src="./images/employee-4.jpg"
               alt="Михайло Єрмаков"
+              class="main-section-team-image"
               width="270"
             />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <h3 class="main-section-team-name">Михайло Єрмаков</h3>
+            <p class="main-section-team-text">UI Designer</p>
           </li>
         </ul>
       </section>
 
-      <footer>
+      <footer class="footer">
         <a id="contacts" class="page-logo link" href="/index.html"
-          >Web<span class="colortext">Studio</span></a
+          >Web<span class="footer-colortext">Studio</span></a
         >
         <address>
           <ul class="list">
             <li>
               <a
-                class="link"
+                class="footer-address link"
                 href="https://goo.gl/maps/r8NjzS2zWo1Gopf8A"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -170,12 +181,14 @@
               >
             </li>
             <li>
-              <a class="link" href="mailto:info@devstudio.com"
+              <a class="footer-auth link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="footer-auth link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
             </li>
           </ul>
         </address>
