@@ -54,7 +54,7 @@ body {
 }
 
 .menu-item .current {
-color: var(--nav-button-color);
+    color: var(--nav-button-color);
 }
 
 .header-mail,
